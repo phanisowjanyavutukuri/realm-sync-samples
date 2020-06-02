@@ -1,8 +1,8 @@
 import { stats, BasicServer } from "realm-object-server";
 
 const sink = new stats.StatsdStatsSink({
-  hostname: 'statsd-host',
-  port: 8125,
+  hostname: 'instance-2',
+  port: 9090,
   socketType: 'udp4',
   logger: undefined // or a Logger instance
 });
